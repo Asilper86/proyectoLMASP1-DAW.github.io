@@ -1,0 +1,93 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 25px;
+    padding: 5px;
+    background: #0d1318;
+    color: #fff;
+}
+
+#titulo{
+    text-align: center;
+    margin: 0px auto;
+    border: 2px solid #52d2f5;
+    box-shadow: 0 0 5px #fff, 0 0 10px #52d2f5, 0 0 15px #52d2f5;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+#titulo:hover{
+    border: 2px solid #52d2f5;
+    box-shadow: 0 0 5px #fff, 0 0 10px #0d1318, 0 0 15px #0d1318;
+    background-color: #52d2f5;
+    color: black;
+}
+
+.lenguajes{
+    border: 2px solid #52d2f5 ;
+    box-shadow: 0 0 5px #fff, 0 0 10px #52d2f5, 0 0 15px #52d2f5;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 40%;
+}
+
+.lenguajes:hover{
+    border: 3px solid #52d2f5;
+    box-shadow: 0 0 5px #fff, 0 0 10px #0d1318, 0 0 15px #0d1318;
+    background-color: #52d2f5;
+    color: black;
+}
+ 
+.lenguajes:hover a{
+    color: #0d1318;
+}
+
+
+.lenguajes:nth-of-type(1){
+    width: 30%;
+    height: 700px;
+    float: left;
+}
+
+.lenguajes li{
+    font-size: 20px;
+    margin: 15px;
+}
+
+#titulo_LM{
+    text-align: center;
+    font-size: 23px;
+}
+.texto_PI{
+    margin: 20px;
+    font-size: 22px;
+}
+
+.texto_PI:nth-of-type(2){
+    width: 67%;
+    height: 700px;
+    float: right;
+}
+
+#PI_F1{
+    padding-left: 25%;
+}
+
+#tutoriales{
+    font-size: 30px;
+}
+
+.iframes{
+    padding-left: 25%;
+}
+
+a{
+    color: white;
+}
+
+
+
+
+
+
+
+
